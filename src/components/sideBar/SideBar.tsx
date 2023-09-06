@@ -13,7 +13,8 @@ const SideBar = () => {
   };
   return (
     <section
-      className={`bg-CURRENT_LINE h-full flex flex-col duration-500 ${
+      className={`bg-CURRENT_LINE fixed top-0 left-0
+       h-full flex flex-col duration-500 ${
         isMenuOpen ? "w-16" : "w-16 lg:w-72"
       }`}
     >
