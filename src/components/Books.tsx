@@ -5,9 +5,9 @@ const Books = () => {
   const books = getAllBooks();
   return (
     <div>
-      <ul className="text-white flex flex-col mt-12 gap-4 container px-8">
+      <ul className="text-blue-400 flex flex-col mt-12 gap-4 container px-8">
         {books.map((book) => (
-          <div className="grid grid-row-2 md:grid-cols-2 gap-4 odd:bg-blue-700 rounded-lg p-8 even:bg-blue-900">
+          <div className="grid grid-row-2 md:grid-cols-2 gap-4 odd:bg-cyan-700 rounded-lg p-8 even:bg-blue-900">
             <div className="col-span-1 flex justify-center">
               <img className="h-full rounded-lg" src={book.imgUrl} alt="" />
             </div>
